@@ -1,0 +1,19 @@
+docker run python-app
+docker run python-app
+docker run python-app
+docker run python-app
+docker run helper –link app1
+docker run helper –link app2
+docker run helper –link app3
+docker run helper –link app4
+
+kubectl run nginx –-image nginx
+kubectl get pods
+
+kubectl create –f rc-definition.yml
+kubectl get replicationcontroller
+kubectl get pods
+
+
+
+
